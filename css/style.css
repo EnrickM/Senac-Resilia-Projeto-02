@@ -57,7 +57,7 @@ h5{
   align-items:center;
   color: white;
   font-weight: 100;
-  margin-top: -30px;
+  margin-top: -50px;
 }
 
 .h4{
@@ -268,10 +268,21 @@ h5{
   flex-direction: row;
   width: 90%;
   margin: auto;
-  background-color:white;
-  padding: 2px;
-  border-radius: 12px;
+  background-color:none;
+  padding: 10px;
+  border-radius: 20px;
 }
+.boxG{
+  display: flex;
+  flex-direction: row;
+  width: 92%;
+  margin: auto;
+  background-color:none;
+  padding: 20px;
+  border-radius: 30px;
+  box-shadow: rgba(0, 0, 0, 0.473) 1px 1px 1000px;
+}
+
 .panel{
   background-size: auto 200%;
   background-position: center;
@@ -308,6 +319,8 @@ h5{
   width: 92%;
   margin-left: auto;
   margin-right: auto;
+  border-radius: 30px;
+  box-shadow: rgba(0, 0, 0, 0.473) 1px 1px 1000px;
 }
 
 .flexTitle{
@@ -331,11 +344,12 @@ h5{
   margin-left: auto;
   margin-right: auto;
   padding: 2px;
-  border-radius: 12px;
+  border-radius: 30px;
+  
 }
 
 .flexElement{
-  background-color: white;
+  background-color: none;
   font-family: verdana;
   display:flex;
   justify-content: center;
@@ -346,8 +360,8 @@ h5{
   background-position: center;
   background-size:cover;
   cursor: pointer;
-  border-radius: 10px;
-  margin: 1%;
+  border-radius: 20px;
+  margin: 10px;
 }
 
 @media(max-width: 480px){
