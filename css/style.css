@@ -41,6 +41,7 @@ h1{
   justify-content: center;
   align-items:center;
   color: white;
+  text-shadow: rgba(0, 0, 0, 0.2) 1px 1px 5px;
 }
 
 h2{
@@ -48,7 +49,9 @@ h2{
   display: flex;
   justify-content: center;
   align-items:center;
-  color: white;}
+  color: white;
+  text-shadow: rgba(0, 0, 0, 0.2) 1px 1px 5px;
+}
 
 h5{
   font-size:20px;
@@ -56,6 +59,7 @@ h5{
   justify-content: center;
   align-items:center;
   color: white;
+  text-shadow: rgba(0, 0, 0, 0.2) 1px 1px 5px;
   font-weight: 100;
   margin-top: -50px;
 }
@@ -135,7 +139,6 @@ h5{
   color: inherit;
   cursor: pointer;
   display: inline-block;
-  float: left;
   font: inherit;
   margin: 0.8125em 0 0;
   overflow: visible; 
@@ -143,7 +146,6 @@ h5{
   padding: 0;
   text-transform: none;
   transition: opacity 0.15s;
-  -webkit-appearance: none;
 }
 
 .hamburger:hover {
@@ -289,6 +291,7 @@ h5{
   background-repeat: no-repeat;
   border-radius: 10px;
   color: white;
+  text-shadow: rgba(0, 0, 0, 0.2) 1px 1px 5px;
   cursor: pointer;
   flex: 0.5;
   margin: 1px;
@@ -461,7 +464,6 @@ h5{
   width: 100%;
   max-width: 14em;
   position: relative;
-  -webkit-appearance: none;
 }
 
 #masthead-search input {
@@ -475,7 +477,6 @@ h5{
   width: 100%;
   padding: 0.75em 1.125em;
   transition: border-color 0.3s ease;
-  -webkit-appearance: none;
 }
 
 #masthead-search button {
@@ -488,7 +489,6 @@ h5{
   top: 50%;
   right: 0.75em;
   transform: translateY(-50%);
-  -webkit-appearance: none;
 }
 
 #masthead.is-active #masthead-search button {
@@ -545,25 +545,6 @@ h5{
   animation: fade-in-stagger 0.8s ease forwards;
 }
 
-#masthead.is-active .col:nth-child(1) {
-    -webkit-animation-delay: 0;
-}
-
-#masthead.is-active .col:nth-child(2) {
-    -webkit-animation-delay: 0.1s;
-}
-
-#masthead.is-active .col:nth-child(3) {
-    -webkit-animation-delay: 0.2s;
-}
-
-#masthead.is-active .col:nth-child(4) {
-    -webkit-animation-delay: 0.3s;
-}
-
-#masthead.is-active .col:nth-child(5) {
-    -webkit-animation-delay: 0.4s;
-}
 
 @keyframes fade-in-stagger {
   to {
