@@ -30,7 +30,7 @@ body {
   font-family: 'Roboto', sans-serif;
   font-size: 100%;
   line-height: 1.5;
-  background: url("https://wallpapercave.com/wp/wp6928969.jpg");
+  background: url("../img/background.webp");
   background-size: cover;
   background-attachment: fixed;
 }
