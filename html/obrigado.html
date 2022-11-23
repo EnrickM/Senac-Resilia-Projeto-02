@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Recuperação de Senha</title>
-    <link rel="stylesheet" href="../css/senha.css">
+    <title>Obrigado!</title>
+    <link rel="stylesheet" href="../css/obrigado.css">
     <link rel="stylesheet" href="../css/style.css">
 </head>
+
 <body>
-    
+
     <div class="hero">
         <header id="masthead" role="banner">
           <div class="indexContainer">
@@ -23,7 +24,6 @@
           <input type="search" name="s" aria-labelledby="search-label" placeholder="Procure&hellip;" class="draw">
             <button type="submit">&rarr;</button>
             </form>     
-            
             <p class="logo">C O L O R A R I A</p>   
             <nav id="site-nav" role="navigation">
               <div class="col"> <a href="../index.html"> <h4>Paletas</h4> </a> </div>
@@ -35,27 +35,21 @@
         </div>
       </header>
 
-    <div class="flexBox">
-      <div class="content">
-
-        <img src="../img/cadeado.png" alt="foto de cadeado" class="cadeado">
-        
-        
-        <form id="form">
-
-            <h1>Recuperação de Senha</h1>
-
-            <div>
-                <input type="email" placeholder="Digite seu email cadastrado" class="inputs required" oninput="emailValidate()">
-                <span class="span-required">Digite um email válido</span>
+    <div class="centralizado">
+        <div class="thank">
+            <div id="textoAgradece">
+                <p class="textos primeiro">OBRIGADO!</p>
+                <p class="textos segundo">Seu pedido será processado e enviado.</p>
+                <br>
+                <p class="textos terceiro">Agora é só aguardar. Enquanto isso, sinta-se à vontade para continuar navegando ou retornar à <a href="../index.html">página inicial</a>.</p>
             </div>
-            
-            <button onclick="botao()" type="submit" class="confirmacao">Enviar</button>
-        </form>
+
+            <div id="imagemAgradece">
+                <p class="emoji">🚀</p>
+            </div>
         </div>
     </div>
 
-    <script src="../js/senha.js"></script>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
     <script src="../js/script.js"></script>
 </body>
